@@ -1,0 +1,20 @@
+{
+  "name": "tiny-llm-master",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "train": "tsx 1-train.ts",
+    "generate": "tsx 2-use-llm.ts",
+    "chat": "tsx 3-chat.ts",
+    "typecheck": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
